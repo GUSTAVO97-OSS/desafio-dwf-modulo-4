@@ -1,0 +1,81 @@
+.portfolio {
+    background-color: black;
+}
+.portfolio__section {
+    background-color: black;
+}
+@media (min-width: 768px) {
+    .portfolio__section {
+        height: 80vh;
+        background-image: url(/images/Rectangle\ 22.png);
+    }
+}
+.portfolio__container {
+    padding: 0 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+    .portfolio__container {
+        padding: 0;
+    }
+}
+@media (min-width: 768px) {
+    .portfolio__template {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (min-width: 900px) {
+    .portfolio__template {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+.portfolio__title {
+    margin: 113px 0 104px 0;
+    color: 
+    #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight:700;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .portfolio__title {
+        text-align: left;
+        margin-left: 86px;
+    }
+}
+.portfolio__img {
+    width: 290px;
+    height: 172px;
+    object-fit: cover;
+}
+.portfolio__subtitle {
+    color: #DBDBDB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.portfolio__paragraph {
+    color: #DBDBDB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 20px;
+}
+.portfolio__url {
+    color: #FC6F50;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
