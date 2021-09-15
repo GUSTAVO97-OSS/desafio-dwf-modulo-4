@@ -8,8 +8,9 @@
 @media (min-width: 768px) {
     .services__section {
         height: 80vh;
-        background-image:url(/images/Rectangleee.png);
+        background-image: url(https://zabit-009.github.io/desafio-dwf-modulo-4/images/Rectangleee.png)
     }
+
 }
 .services__container {
     padding: 20px 42px;
