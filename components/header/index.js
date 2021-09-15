@@ -3,7 +3,7 @@ function headerComponent(el) {
     componentEl.innerHTML = `
     <section class="home__container">
     <header class="header__container">
-        <a class="header__logo" href="/"><h1 class="header__logo">Ramiro</h1></a>
+        <a class="header__logo" href="./index.html"><h1 class="header__logo">Ramiro</h1></a>
 
         <nav class="header__menu">
             <div class="header__menu-line"></div>

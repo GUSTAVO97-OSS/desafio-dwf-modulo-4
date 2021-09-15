@@ -128,8 +128,8 @@ function addTitleWelcome(params = {}) {
     
     
     function main() {
-        fitterPresentation();
         fitterBienvenida();
+        fitterPresentation();
         fitterService();
         
         contactComponent(document.querySelector('.form-container'));
